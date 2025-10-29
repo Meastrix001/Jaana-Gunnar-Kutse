@@ -1,13 +1,13 @@
 import { Metadata } from "next";
 import { LanguageKeys } from "@/utils/i18n/LanguageKeys";
 import { brand } from "@/theme/brand.config";
-import { HomePage } from "@/pageComponents/home/page";
+import { SearchPage } from "@/pageComponents/search/page";
 
 const pageLanguage = "en"
 
 
 export default function LandingPageEn() {
-  return <HomePage />
+  return <SearchPage />
 }
 
 
