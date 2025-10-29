@@ -9,9 +9,9 @@ import React, { useState } from "react";
 export const SearchPage = () => {
     const [search, setSearch] = useState<string>("");
 
-    const namesToShow = search ?
+    const namesToShow =
         names.filter((name) => name.trim().toLocaleLowerCase().includes(search.toLocaleLowerCase()))
-        : names
+
 
     return (
 
@@ -32,7 +32,7 @@ export const SearchPage = () => {
                     </InViewWrapper>
 
                     <Flex wrap={"wrap"} gap={"2"} align={"center"} justify={"center"}>
-                        {namesToShow.map((name) => {
+                        {search && search.length > 2 && namesToShow.map((name) => {
                             return <Button variant="soft" size={{ initial: "2", lg: "4" }} key={name}><Link href={`/${name}`}>{name}</Link></Button>
                         })}
                     </Flex>
