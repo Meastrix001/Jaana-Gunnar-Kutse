@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.beautybystiina.ee
+
+# Sitemaps
+Sitemap: https://www.beautybystiina.ee/sitemap.xml

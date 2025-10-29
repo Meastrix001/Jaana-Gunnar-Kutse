@@ -1,0 +1,11 @@
+@keyframes fadeInBelow {
+  0% {
+    margin-bottom: -5rem;
+    opacity: 0;
+  }
+
+  100% {
+    margin-bottom: 0;
+    opacity: 1;
+  }
+}
