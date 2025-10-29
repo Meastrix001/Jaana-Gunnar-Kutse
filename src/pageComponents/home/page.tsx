@@ -1,7 +1,7 @@
 
 "use client"
 import { InViewWrapper } from "@/hooks/InViewWrapper";
-import { Box, Flex, Heading, Text } from "@radix-ui/themes";
+import { Box, Flex, Heading } from "@radix-ui/themes";
 import { useParams } from "next/navigation";
 import React, { useState } from "react";
 
