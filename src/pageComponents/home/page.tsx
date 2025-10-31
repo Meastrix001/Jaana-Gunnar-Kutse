@@ -27,10 +27,10 @@ export const HomePage = () => {
 
                         {/* <!-- Goes to the second page --> */}
                         <input type="radio" name="page" id="page-2" onClick={() => setOpen(true)} />
-                        <label className="book__page book__page--2" >
-                            <Flex direction={"column"} align={"center"} className="book__page-front" justify={"between"} >
-                                <Flex align={"center"} justify={"center"} direction={"column"} className="page__content" height={"100%"}>
-                                    <Heading as="h1" size={{ initial: "2", lg: "9" }} >{sterilizedSlug}</Heading>
+                        <label className={`book__page book__page--2 ${open ? "open" : ""}`} >
+                            <Flex position={"relative"} className="book__page-front" justify={"between"} >
+                                <Flex position={"absolute"} top={{ initial: "19%", lg: "16.8%" }} width={{ initial: "61%", lg: "80%" }} left={"40%"} className="page__content" height={"100%"}>
+                                    <Heading style={{ color: "#c18e39", width: "100%" }} wrap={"wrap"} as="h1" weight={"light"}  >{sterilizedSlug}</Heading>
                                 </Flex>
                             </Flex>
 
