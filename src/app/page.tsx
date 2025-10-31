@@ -1,5 +1,4 @@
-import { Metadata } from "next";
-import { brand } from "@/theme/brand.config";
+
 import { SearchPage } from "@/pageComponents/search/page";
 
 
@@ -9,29 +8,4 @@ export default function LandingPageEn() {
 
 
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical: `${brand.company.site}en/`,
-    languages: {
-      en: `${brand.company.site}en/`,
-      et: `${brand.company.site}`,
-    },
-  },
-  title: "",
-  description: "",
-  openGraph: {
-    title: "",
-    description: "",
-    url: `${brand.company.site}en/`,
-    siteName: brand.company.name,
-    images: [
-      {
-        url: brand.company.logo.src,
-        width: 1200,
-        height: 630,
-        alt: `${brand.company.name} hero image`,
-      },
-    ],
-    type: "website",
-  },
-};
+
