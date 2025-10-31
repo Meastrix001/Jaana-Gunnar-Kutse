@@ -57,7 +57,7 @@ body {
     animation: moveAlt 1s ease forwards;
   }
 
-  @media (min-width: "750px") {
+  @media (min-width: 750px) {
     transform: translateX(-25%) rotate(0);
     animation: moveCenter 1s ease forwards;
 
@@ -84,15 +84,27 @@ body {
     transform-origin: 0% 0%;
     background-color: var(--page-bg);
     border-radius: 5px;
+
     h1 {
       font-size: 16px;
     }
 
-    @media (min-width: "1200") {
+    @media (min-width: 1200px) {
       h1 {
         line-height: 65px;
         font-size: 70px;
         transform: scaleX(0.8); // compress horizontally to 80%
+
+        transform-origin: left center;
+        letter-spacing: -3px;
+      }
+    }
+
+    @media (min-width: 1921px) {
+      h1 {
+        line-height: 65px;
+        font-size: 90px;
+        transform: scaleX(0.7); // compress horizontally to 80%
 
         transform-origin: left center;
         letter-spacing: -3px;
