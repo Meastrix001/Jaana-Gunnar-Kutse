@@ -2,13 +2,11 @@
 "use client"
 import { InViewWrapper } from "@/hooks/InViewWrapper";
 import { Box, Flex, Heading } from "@radix-ui/themes";
-import { useParams } from "next/navigation";
 import React, { useState } from "react";
 
-export const HomePage = () => {
-    const { slug } = useParams()
+export const HomePage = ({ slug }: { slug: string }) => {
+    // const { slug } = useParams()
 
-    const sterilizedSlug = (slug as string).replaceAll("%20", " ").replaceAll("%26", "&")
 
     const [open, setOpen] = useState<boolean>(false)
 
@@ -30,7 +28,7 @@ export const HomePage = () => {
                         <label className={`book__page book__page--2 ${open ? "open" : ""}`} >
                             <Flex position={"relative"} className="book__page-front" justify={"between"} >
                                 <Flex position={"absolute"} top={{ initial: "19%", lg: "16.8%" }} width={{ initial: "61%", lg: "80%" }} left={"40%"} className="page__content" height={"100%"}>
-                                    <Heading style={{ color: "#c18e39", width: "100%" }} wrap={"wrap"} as="h1" weight={"light"}  >{sterilizedSlug}</Heading>
+                                    <Heading style={{ color: "#c18e39", width: "100%" }} wrap={"wrap"} as="h1" weight={"light"}  >{slug}</Heading>
                                 </Flex>
                             </Flex>
 
