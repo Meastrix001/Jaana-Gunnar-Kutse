@@ -50,6 +50,7 @@ export const SearchPage = () => {
                                         onClick={() => {
                                             setName(name);
                                         }}
+
                                         variant="soft"
                                         size={{ initial: "2", lg: "4" }}
                                         key={name}

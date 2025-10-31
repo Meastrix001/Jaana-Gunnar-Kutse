@@ -58,4 +58,5 @@ export const names = [
     "Katrel kaaslasega",
     "Aino kaaslasega",
     "Merle kaaslasega",
+    "Janek Veevo"
 ]
