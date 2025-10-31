@@ -27,7 +27,7 @@ export const HomePage = ({ slug }: { slug: string }) => {
                         <input type="radio" name="page" id="page-2" onClick={() => setOpen(true)} />
                         <label className={`book__page book__page--2 ${open ? "open" : ""}`} >
                             <Flex position={"relative"} className="book__page-front" justify={"between"} >
-                                <Flex position={"absolute"} top={{ initial: "19%", lg: "16.8%" }} width={{ initial: "61%", lg: "80%" }} left={"40%"} className="page__content" height={"100%"}>
+                                <Flex position={"absolute"} top={{ initial: "19%", lg: "16.8%" }} width={{ initial: "61%", lg: "80%" }} left={"38%"} className="page__content" height={"100%"}>
                                     <Heading style={{ color: "#c18e39", width: "100%" }} wrap={"wrap"} as="h1" weight={"light"}  >{slug}</Heading>
                                 </Flex>
                             </Flex>
