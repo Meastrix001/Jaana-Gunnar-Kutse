@@ -1,14 +1,12 @@
 import { Metadata } from "next";
-import { LanguageKeys } from "@/utils/i18n/LanguageKeys";
 import { brand } from "@/theme/brand.config";
 import { SearchPage } from "@/pageComponents/search/page";
-
-const pageLanguage = "en"
 
 
 export default function LandingPageEn() {
   return <SearchPage />
 }
+
 
 
 export const metadata: Metadata = {
@@ -19,11 +17,11 @@ export const metadata: Metadata = {
       et: `${brand.company.site}`,
     },
   },
-  title: LanguageKeys[pageLanguage].SEO.landing.title,
-  description: LanguageKeys[pageLanguage].SEO.landing.desc,
+  title: "",
+  description: "",
   openGraph: {
-    title: LanguageKeys[pageLanguage].SEO.landing.title,
-    description: LanguageKeys[pageLanguage].SEO.landing.desc,
+    title: "",
+    description: "",
     url: `${brand.company.site}en/`,
     siteName: brand.company.name,
     images: [

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.beautybystiina.ee
+Host: https://jaana-gunnar-kutse.vercel.app/
 
 # Sitemaps
-Sitemap: https://www.beautybystiina.ee/sitemap.xml
+Sitemap: https://jaana-gunnar-kutse.vercel.app/sitemap.xml

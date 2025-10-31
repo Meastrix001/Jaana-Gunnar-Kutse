@@ -3,7 +3,7 @@ import { ThemeProps } from "@radix-ui/themes";
 export const brand = {
   defaultLanguage: "en",
   company: {
-    site: "https://www.beautybystiina.ee/",
+    site: "https://jaana-gunnar-kutse.vercel.app/",
     name: "Company name",
     logo: {
       src: "/static/logos/logo_demo.jpg",

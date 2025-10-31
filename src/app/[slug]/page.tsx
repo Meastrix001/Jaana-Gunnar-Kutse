@@ -1,9 +1,7 @@
 import { Metadata } from "next";
-import { LanguageKeys } from "@/utils/i18n/LanguageKeys";
 import { brand } from "@/theme/brand.config";
 import { HomePage } from "@/pageComponents/home/page";
 
-const pageLanguage = "en"
 
 
 export default function LandingPageEn() {
@@ -19,11 +17,11 @@ export const metadata: Metadata = {
             et: `${brand.company.site}`,
         },
     },
-    title: LanguageKeys[pageLanguage].SEO.landing.title,
-    description: LanguageKeys[pageLanguage].SEO.landing.desc,
+    title: "",
+    description: "",
     openGraph: {
-        title: LanguageKeys[pageLanguage].SEO.landing.title,
-        description: LanguageKeys[pageLanguage].SEO.landing.desc,
+        title: "",
+        description: "",
         url: `${brand.company.site}en/`,
         siteName: brand.company.name,
         images: [

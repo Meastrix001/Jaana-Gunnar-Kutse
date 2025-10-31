@@ -11,29 +11,6 @@ export const SiteHead = () => {
         <link rel="manifest" href="/favicon/site.webmanifest" />
 
 
-        <link rel="alternate" href="https://www.beautybystiina.ee/en" hrefLang="en" />
-        <link rel="alternate" href="https://www.beautybystiina.ee" hrefLang="et" />
-
-        {/* About */}
-        <link rel="alternate" href="https://www.beautybystiina.ee/en/about" hrefLang="en" />
-        <link rel="alternate" href="https://www.beautybystiina.ee/et/about" hrefLang="et" />
-
-        {/* Services & Prices */}
-        <link rel="alternate" href="https://www.beautybystiina.ee/en/services-prices" hrefLang="en" />
-        <link rel="alternate" href="https://www.beautybystiina.ee/et/services-prices" hrefLang="et" />
-
-        {/* Reviews */}
-        <link rel="alternate" href="https://www.beautybystiina.ee/en/review" hrefLang="en" />
-        <link rel="alternate" href="https://www.beautybystiina.ee/et/review" hrefLang="et" />
-
-        {/* Contact */}
-        <link rel="alternate" href="https://www.beautybystiina.ee/en/contact" hrefLang="en" />
-        <link rel="alternate" href="https://www.beautybystiina.ee/et/contact" hrefLang="et" />
-
-        {/* FAQ */}
-        <link rel="alternate" href="https://www.beautybystiina.ee/en/faq" hrefLang="en" />
-        <link rel="alternate" href="https://www.beautybystiina.ee/et/faq" hrefLang="et" />
-
 
 
         {/* Google tag (gtag.js) */}
