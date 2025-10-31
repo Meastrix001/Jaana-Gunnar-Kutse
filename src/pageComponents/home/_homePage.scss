@@ -18,6 +18,10 @@
     --baseline: 20px;
   }
 
+  @media (min-width: 1921px) {
+    --baseline: 25px;
+  }
+
   /* fonts */
   --book-title: "Tulpen One", sans-serif;
   --title: "Cormorant Garamond", serif;
