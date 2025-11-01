@@ -7,6 +7,7 @@ export const names = [
     "Anna - Liisa Tumala",
     "Aide ja Glaid Traagel",
     "Liina ja Ardo Rakaselg",
+    "Joonas Jaanovits",
     "Johanna Jaanovits",
     "Jaagup Jaanovits",
     "Erika Kivi",
